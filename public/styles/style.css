@@ -1,0 +1,184 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Exo 2", sans-serif;
+}
+.container {
+    width: 100%;
+    margin: auto;
+}
+.header {
+    background-color: black;
+    border-bottom: 3px solid aqua;
+}
+.header .container {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.titulo{
+    margin-left: 80px;
+    color: aqua;
+    font-size: 32px;
+    font-weight: bold;
+}
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+.navbar li {
+    color: burlywood;
+    font-size: 15px;  
+}
+.navbar a {
+    text-decoration: none;
+    color: burlywood;
+}
+.agora a {
+    font-weight: bold;
+}
+.banner {
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+    height: 500px;
+}
+.banner .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner span {
+    font-weight: bold;
+}
+.banner p {
+    color: white;
+    font-size: 48px;
+    width: 280px;
+    margin-right: 220px;
+}
+.social {
+    background-color: #e5e5e5;
+    padding: 70px 100px;
+}
+.box {
+    width: 40%;
+}
+.boxes {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.box p {
+    font-size: 18px;
+    color: #333;
+    margin: 20px;
+}
+.box img {
+    height: 100px;
+    margin-bottom: 15px;
+    width: 100px;
+}
+.box h4 {
+    color:#c4106a;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.footer {
+    background-color:rgb(74, 170, 170);
+    color: white;
+}
+.footer .container {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer h4 {
+    font-size: 20px;
+}
+.version {
+    font-size: 14px;
+}
+
+/* Tela de Cadastro e Login*/
+
+.login {
+    background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    object-position: bottom;
+}
+.login .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.login h2 {
+    margin-bottom: 20px;
+    color: #ff4da6;
+}
+.card {
+    display: flex;
+    background-color: aliceblue;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.card-login {
+    background-color: #e0e0e0;
+    width: 750px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.campo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.campo span {
+    color: #ff4da6;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.campo input {
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #0da1a1;
+    background-color: #ffffff; 
+    text-align: center;
+}
+.botao {
+    margin: 15px auto;
+    padding: 12px;
+    width: 200px;
+    background-color: #c4106a;
+    color: white;
+    border: #c4106a;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.card-cadastro {
+    background-color: #e0e0e0;
+    width: 600px; 
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
